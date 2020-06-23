@@ -1,6 +1,5 @@
 #Custom dockerfile for security pipeline
 FROM owasp/zap2docker-weekly
-LABEL maintainer "josh.b@edgenetworks.in"
 USER root
 RUN apt-get update
 RUN apt-get install -y sqlmap
